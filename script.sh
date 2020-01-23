@@ -55,7 +55,7 @@ sudo apt-get install transmission-gtk transmission-cli transmission-common trans
 
 
 ## Meu padrão no terminal ##
-echo 'PS1=\[\033[01;32m\]\[\033[0m\033[0;32m\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$ ' >> .bashrc;
+echo 'PS1=\[\033[01;32m\]\[\033[0m\033[0;32m\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]$ ' >> ~/.bashrc;
 
 
 
