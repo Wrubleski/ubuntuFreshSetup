@@ -10,7 +10,7 @@ mkdir ~/Projects;
 sudo apt install ubuntu-restricted-extras -y;
 
 ## Instala alguns pacotes essenciais ##
-sudo apt install build-essential default-jdk exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 -y;
+sudo apt install build-essential default-jdk exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig libmagickwand-dev software-properties-common git -y;
 
 ## Instala o Sublime 3 ##
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -;
@@ -41,6 +41,9 @@ sudo apt install npm -y;
 
 ## Instala o vlc ##
 sudo snap install vlc;
+
+##instala o tweaks tool##
+sudo apt install gnome-tweaks-tool -y;
 
 ## Inslata o chrome ##
 sudo apt install google-chrome-stable -y;
