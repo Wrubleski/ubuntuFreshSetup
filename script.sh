@@ -11,6 +11,7 @@ sudo apt install ubuntu-restricted-extras -y;
 
 ## Instala alguns pacotes essenciais ##
 sudo apt install build-essential default-jdk exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig libmagickwand-dev software-properties-common git -y;
+sudo apt-get install fonts-hack-ttf;
 
 ## Instala o Sublime 3 ##
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -;
