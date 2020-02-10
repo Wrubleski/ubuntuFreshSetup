@@ -44,10 +44,11 @@ sudo apt install npm -y;
 sudo snap install vlc;
 
 ##instala o tweaks tool##
-sudo apt install gnome-tweaks-tool -y;
+sudo apt install gnome-tweak-tool -y;
 
 ## Inslata o chrome ##
-sudo apt install google-chrome-stable -y;
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
+sudo dpkg -i google-chrome-stable_current_amd64.deb;
 
 ## Instala o Transmission para download de torrents ##
 sudo add-apt-repository ppa:transmissionbt/ppa -y;
